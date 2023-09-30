@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --cor-primaria: #600097;
+  --cor-secundaria: #9162ff;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.table {
+    --bs-table-bg: transparent;
+  
+}
+td {
+  border: none !important;
+}
+
+table.table {
+  box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+}
+
+table.table > thead > tr th {
+ 
+}
+
+button.btn {
+  min-width: 80px;
+}
+
+/* Override */
+/* div.modal-dialog{
+    max-width: 700px;
+} */
+
+#loading {
+  display: none;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #edfbfd;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  th {
+  
+    color: white;
+  }

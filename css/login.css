@@ -1,0 +1,94 @@
+/*
+    TAG (button, body, input)
+
+    Classe (.titulo .grupo)
+
+    Id (#btn-entrar)
+
+    Seletor (Tudo junto e misturado)
+
+*/
+
+.container {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-image: url('wallhaven-j55dgy.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.login{
+    background-color: rgb(209, 169, 255);
+}
+.grupo {
+    margin-top: 10px;
+}
+
+.caixa-login {
+    width: 30%;
+    height: 100%;
+    border: 2px solid #00d9ff;
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    
+}
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 12px;
+}
+
+input, 
+#btn-entrar {
+    padding: 8px;
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #ddd;
+    outline: none;
+    background-color: #ffffff;
+}
+
+#btn-entrar {
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+}
+
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.esqueci-minha-senha a {
+    color:var(--cor-primaria);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
